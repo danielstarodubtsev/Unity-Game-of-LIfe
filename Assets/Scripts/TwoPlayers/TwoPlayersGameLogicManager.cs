@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class TwoPlayersGameLogicManager : MonoBehaviour
 {
+    [SerializeField] private GameObject cellPrefab;
     [SerializeField] private Grid grid;
     [SerializeField] public float cellSizeWithMargin;
     [SerializeField] public int width;
@@ -53,8 +54,8 @@ public class TwoPlayersGameLogicManager : MonoBehaviour
         {
             for (int y = 0; y < height; ++y)
             {
-                GameObject cube = GameObject.CreatePrimitive(PrimitiveType.Quad);
-                cube.transform.position = new Vector3((float)(x * cellSizeWithMargin), (float)(y * cellSizeWithMargin), 0);
+                GameObject cube = Instantiate(cellPrefab);
+                cube.transform.position = new Vector2((float)(x * cellSizeWithMargin), (float)(y * cellSizeWithMargin));
                 cube.transform.parent = transform;
                 cube.AddComponent<CellAnimator>();
                 cube.GetComponent<CellAnimator>().delaySlider = delaySlider;

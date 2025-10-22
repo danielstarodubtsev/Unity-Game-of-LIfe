@@ -2770,7 +2770,7 @@ RectTransform:
   m_GameObject: {fileID: 1078012514}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.01, y: 0.1, z: 1}
+  m_LocalScale: {x: 1, y: 0.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1122463468}
@@ -2787,8 +2787,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.075}
   m_AnchorMax: {x: 0.86627024, y: 1}
-  m_AnchoredPosition: {x: 73.484, y: -24}
-  m_SizeDelta: {x: -533.3148, y: 4584.0454}
+  m_AnchoredPosition: {x: 73.48399, y: -24}
+  m_SizeDelta: {x: -473.3148, y: 4584.0454}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1078012516
 MonoBehaviour:
@@ -4859,6 +4859,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02cf0af67a358bbae846afc2dcf26ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cellPrefab: {fileID: 4101400955677001044, guid: 67529549dd3c975f6891bb08e84d2d29, type: 3}
   grid: {fileID: 2000094073}
   cellSizeWithMargin: 1
   width: 100

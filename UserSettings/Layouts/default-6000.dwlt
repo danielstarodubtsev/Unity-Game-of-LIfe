@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 97
+  controlID: 98
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 52
+  controlID: 18
   draggingID: 0
 --- !u!114 &7
 MonoBehaviour:
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 43
+  controlID: 19
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -420,7 +420,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 
+      m_ExpandedIDs: d446fdff2448fdffaa4afdffc44afdff8a4bfdff444cfdffb04cfdffa259fdfff25afdff7c5dfdff9a5dfdff645efdff225ffdff925ffdff0c6cfdff5c6dfdffde6ffdffe46ffdff0a70fdff3e70fdff5e70fdff6a47feffba48feff3e4bfeff444bfeff6a4bfeff9e4bfeffbe4bfeffea60feff3a62feffbe64feffc464feffea64feff1e65feff3e65feff508bffffa08cfffff48efffffa8effff208fffff548fffff748fffff3e97ffff8e98ffff129bffff189bffff3e9bffff729bffff929bffffd6faffffd8fafffff4e9000092ea000020f50000e8170100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -437,7 +437,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1024,9 +1024,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 490.18872, y: 338.84927, z: -0.07353467}
+    m_Target: {x: 604.33264, y: 250.31218, z: 0.03705986}
     speed: 2
-    m_Value: {x: 490.18872, y: 338.84927, z: -0.07353467}
+    m_Value: {x: 604.33264, y: 250.31218, z: 0.03705986}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1076,9 +1076,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 395.3065
+    m_Target: 384.24594
     speed: 2
-    m_Value: 395.3065
+    m_Value: 384.24594
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1156,7 +1156,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/OnePlayer
+    - Assets/Resources
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1166,16 +1166,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 57
   m_LastFolders:
-  - Assets/Scripts/OnePlayer
+  - Assets/Resources
   m_LastFoldersGridSize: 57
   m_LastProjectPath: /home/dantheman/GameOfLife
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: eeb20000
-    m_LastClickedID: 45806
-    m_ExpandedIDs: 000000004cb20000
+    m_SelectedIDs: 60d30000
+    m_LastClickedID: 54112
+    m_ExpandedIDs: 00000000cab30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1204,7 +1204,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000004cb20000
+    m_ExpandedIDs: 00000000cab30000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1232,7 +1232,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300000000000058c40000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
